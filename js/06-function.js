@@ -59,3 +59,19 @@ const jonoVidurkis = vidurkis(jonas);
 console.log('Jono:', jonoVidurkis);
 const onosVidurkis = vidurkis(ona);
 console.log('Ona:', onosVidurkis); */
+
+/* 
+Funkcija gauna vardą ir turi grąžinti sakinį:
+"Vardo pirma raidė yra [V] ir vardas sudarytas iš 5 raidžių."
+*/
+
+function vardoAnalize(name) {
+    return `Vardo "${name}" pirma raidė yra ${name[0]} ir vardas sudarytas iš ${name.length} raidžių.`;
+}
+
+const petroVardas = vardoAnalize('Petras');
+console.log(petroVardas);
+const marytesVardas = vardoAnalize('Marytė');
+console.log(marytesVardas);
+const aloyzoVardas = vardoAnalize('Aloyzas');
+console.log(aloyzoVardas);
