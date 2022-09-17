@@ -75,3 +75,44 @@ const marytesVardas = vardoAnalize('Marytė');
 console.log(marytesVardas);
 const aloyzoVardas = vardoAnalize('Aloyzas');
 console.log(aloyzoVardas);
+
+console.log();
+
+/* 
+Funkcija gauna du skaičius ir turi grąžinti lygtį su sprendimu, pvz.: 2 + 3 = 5.
+*/
+
+function suma(a, b) {
+    return `${a} + ${b} = ${a + b}`;
+}
+
+const s1 = suma(2, 3);
+console.log(s1);
+
+const s2 = suma(0.1, 0.2);
+console.log(s2);
+
+const s3 = suma(-88, -11);
+console.log(s3);
+
+/* 
+dešimtainis dvejetainis
+0           000
+1           001
+2           010
+3           011
+4           100
+5           101
+6           110
+7           111
+8           1000
+
+0.5         5*10^-1
+
+0.07        7*10^-2
+
+0.55        5.5*10^-1       [sveika, dešimtainė, laipsnis]
+
+0.0714      7.14*10^-2      [7, 14, -2]
+
+*/
