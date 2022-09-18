@@ -35,4 +35,6 @@ console.log(sumaIntervale(-70, 30), '-->', -2020);
     c. -18 - 18
     d. rezultatą pateikti tokiu formatu:
         i. Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 3 yra 4 vienetai.
-        ii. Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 5 yra 3 vienetai. */
+        ii. Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 5 yra 3 vienetai. 
+        iii. Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 7 yra 2 vienetai.
+        */
