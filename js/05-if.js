@@ -88,3 +88,25 @@ if (arYraKrituliu) {
         console.log('Be striukės neapsieisi ❄️');
     }
 }
+
+const akys = 'mėlynos';
+const plaukai = 'tamsūs';
+const amzius = 20;
+
+if ((akys === 'mėlynos' || plaukai === 'tamsūs') && amzius >= 20) {
+    console.log('Eisiu į pasimatymą.');
+} else {
+    console.log('Pasimatymo nebus');
+}
+
+const priemone = 'dviratis';
+
+if (
+    priemone === 'dviratis' ||
+    priemone === 'motoroleris' ||
+    priemone === 'automobilis'
+) {
+    console.log('Kelionė nusimato.');
+} else {
+    console.log('Kelionės nenusimato.');
+}

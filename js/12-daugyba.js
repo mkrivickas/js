@@ -20,31 +20,6 @@ Parašyti funkcijas, kurios atitinka pateiktus reikalavimus, jei įvykdo reikiam
         ii. console.log(daugyba(skaičius3, skaicius2));
         iii. console.log(daugyba(skaicius1, skaicius3));
         iv. rezultatas: teisingos reikšmės;
-
-3. Funkcija pavadinimu "skaitmenuKiekisSkaiciuje":
-    a. priima vieną kintamąjį
-    b. jei perduotas kintamasis nėra skaičiaus tipo, tai išveda pranešimą "Pateikta netinkamo tipo reikšmė."
-    c. priešingu atveju, funkcija tęsia darbą
-    d. į atskirą kintamąjį įsimena skaičių sudarančių skaitmenų kiekį
-    e. grąžina skaitmenų kiekį
-    f. TESTAI: 
-        i. console.log(skaitmenuKiekisSkaiciuje(5));
-            1. rezultatas: 1
-        ii. console.log(skaitmenuKiekisSkaiciuje(781));
-            1. rezultatas: 3
-        iii. console.log(skaitmenuKiekisSkaiciuje(37060123456));
-            1. rezultatas: 11
-        iv. console.log(skaitmenuKiekisSkaiciuje(true));
-            1. rezultatas: "Pateikta netinkamo tipo reikšmė."
-        v. console.log(skaitmenuKiekisSkaiciuje("asd"));
-            1. rezultatas: "Pateikta netinkamo tipo reikšmė."
-        vi. console.log(skaitmenuKiekisSkaiciuje(NaN));
-            1. rezultatas: "Pateikta netinkamo tipo reikšmė."
-
-4. Funkcija pavadinimu "didziausiasSkaiciusSarase":
-    a. priima vieną kintamąjį
-    b. jei perduotas kintamasis nėra sąrašo tipo, tai išveda pranešimą "Pateikta netinkamo tipo reikšmė."
-
 */
 
 // 1
@@ -88,23 +63,3 @@ console.log(daugyba(7, -5));
 console.log(daugyba(7.7, -5));
 console.log(daugyba(7, Infinity));
 console.log(daugyba(Infinity, 5));
-
-/* // 3
-function skaitmenuKiekisSkaiciuje(num) {
-    let check = /^-?[\d.]+(?:e-?\d+)?$/.test(num);
-    if (check) {
-        return num.toString().length;
-    } else {
-        return 'Pateikta netinkamo tipo reikšmė.';
-    }
-}
-console.log(skaitmenuKiekisSkaiciuje(NaN)); */
-
-/* // 4
-function didziausiasSkaiciusSarase(array) {
-    if (typeof array !== []) {
-        return 'Pateikta netinkamo tipo reikšmė.';
-    }
-}
-
-console.log(Math.max(...[1, 2, 3, 69])); */
