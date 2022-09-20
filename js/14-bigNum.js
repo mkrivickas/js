@@ -20,15 +20,7 @@
         vi. console.log(didziausiasSkaiciusSarase("pomidoras"));
             1. rezultatas: "Pateikta netinkamo tipo reikšmė."
         vii. console.log(numSize([]));
-            1. rezultatas: "Pateikta netinkamo tipo reikšmė."
-
-
-
-5. Funkcija pavadinimu "isrinktiRaides":
-    a. priima du kintamuosius:
-        i. pirmasis nurodo tekstą, su kuriuo reikės atlikti užduotį;
-        ii. antrasis nurudo kas kelintą raidę išrinkti.
-    b. patikrinti ar pirmasis kintamasis yra teksto tipo */
+            1. rezultatas: "Pateiktas sąrašas negali būti tuščias."
 
 /* // 4 Mano sprendimas
 function didziausiasSkaiciusSarase(array) {
@@ -84,3 +76,4 @@ console.log(bigNum([1, 2, 3, 'x']), '-->', 3);
 console.log(bigNum([1, 2, 'x', 3]), '-->', 3);
 console.log(bigNum([1, 'x', 2, 3]), '-->', 3);
 console.log(bigNum(['x', 1, 2, 3]), '-->', 3);
+console.log(bigNum([true, -1]), '-->', -1);
